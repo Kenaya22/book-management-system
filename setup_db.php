@@ -1,6 +1,6 @@
 <?php
 // Connect to database
-$conn = new mysqli("localhost", "root", "", "book_management");
+$conn = new mysqli("db4free.net", "bookuser", "book122003", "bookdbpunzalan");
 
 // Create tables
 $conn->query("CREATE TABLE IF NOT EXISTS users (
