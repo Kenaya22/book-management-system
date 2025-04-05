@@ -1,7 +1,7 @@
 <?php
 // Process login
 session_start();
-$conn = new mysqli("localhost", "root", "", "book_management");
+$conn = new mysqli("db4free.net", "bookuser", "book122003", "bookdbpunzalan");
 $username = $_POST['username'];
 $password = $_POST['password'];
 
