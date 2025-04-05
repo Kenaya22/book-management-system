@@ -1,7 +1,7 @@
 <?php
 // Form to register users
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $conn = new mysqli("localhost", "root", "", "book_management");
+    $conn = new mysqli("db4free.net", "bookuser", "book122003", "bookdbpunzalan");
     $username = $_POST['username'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
     $role = $_POST['role'];
